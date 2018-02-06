@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  studyenv:
+    build:
+      context: studyenv 
+    container_name: studyenv
+    ports:
+      - "51022:22"
+

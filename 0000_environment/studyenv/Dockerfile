@@ -20,4 +20,5 @@ RUN set -xe \
 RUN set -xe \
     && apt install -y git \
     && cd /home/ubuntu \
-    && git clone https://github.com/wataken44/azure-study
+    && git clone https://github.com/wataken44/azure-study \
+    && chown -R ubuntu:ubuntu azure-study
